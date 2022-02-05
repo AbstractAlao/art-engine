@@ -9,15 +9,10 @@ const buildDir = path.join(basePath, "/build");
 const layersDir = path.join(basePath, "/layers");
 
 const description =
-  "This is the description of your NFT project, remember to replace this";
+  "A Collection of 10,000 algorithmically generated nfts that express the underlying aspcted of the metaverse";
 const baseUri = "ipfs://NewUriToReplace";
 
 const outputJPEG = false; // if false, the generator outputs png's
-/**
- * Set your tokenID index start number.
- * ⚠️ Be sure it matches your smart contract!
- */
-const startIndex = 0;
 
 // if you use an empty/transparent file, set the name here.
 const emptyLayerName = "NONE";
@@ -27,22 +22,17 @@ const hashImages = true;
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 11,
+    growEditionSizeTo: 1000,
     // namePrefix: "Monkey", Use to add a name to Metadata `name:`
     layersOrder: [
       { name: "Background" },
-      {
-        name: "Back Accessory",
-        // options: {
-        //   bypassDNA: true,
-        // },
-      },
-      { name: "Head" },
-      { name: "Clothes" },
+      { name: "Base Character" },
+      { name: "Expression" },
       { name: "Eyes" },
       { name: "Hair" },
-      { name: "Head Accessory" },
-      { name: "Shirt Accessories" },
+      { name: "Clothes" },
+      { name: "Necklace" },
+      { name: "Sneakers" },
     ],
   },
   // {
@@ -80,7 +70,7 @@ const incompatible = {
  * further in the stack
  */
 const forcedCombinations = {
-  // floral: ["MetallicShades", "Golden Sakura"],
+  BACKGROUND_GREEN: ["Urban_GREEN"],
 };
 
 const shuffleLayerConfigurations = false;
@@ -90,16 +80,19 @@ const shuffleLayerConfigurations = false;
  * multiple items should have the same value, specify
  * clean-filename: trait-value override pairs. Wrap filenames with spaces in quotes.
  */
+const traitValueOverrides = {};
+/*
 const traitValueOverrides = {
   Helmet: "Space Helmet",
   "gold chain": "GOLDEN NECKLACE",
-};
+};*/
 
 const debugLogs = true;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 2800,
+  height: 2800,
+  smoothing: false,
 };
 
 const background = {
@@ -153,26 +146,25 @@ const preview = {
 };
 
 module.exports = {
-  background,
-  baseUri,
   buildDir,
-  debugLogs,
+  layersDir,
+  format,
+  baseUri,
   description,
-  emptyLayerName,
+  background,
+  uniqueDnaTorrance,
+  layerConfigurations,
+  rarityDelimiter,
+  preview,
+  shuffleLayerConfigurations,
+  debugLogs,
   extraAttributes,
   extraMetadata,
-  forcedCombinations,
-  format,
-  hashImages,
   incompatible,
-  layerConfigurations,
-  layersDir,
-  outputJPEG,
-  preview,
-  rarityDelimiter,
-  shuffleLayerConfigurations,
-  startIndex,
+  forcedCombinations,
   traitValueOverrides,
-  uniqueDnaTorrance,
+  outputJPEG,
+  emptyLayerName,
   useRootTraitType,
+  hashImages,
 };
