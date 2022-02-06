@@ -13,6 +13,11 @@ const description =
 const baseUri = "ipfs://NewUriToReplace";
 
 const outputJPEG = false; // if false, the generator outputs png's
+/**
+ * Set your tokenID index start number.
+ * ⚠️ Be sure it matches your smart contract!
+ */
+const startIndex = 0;
 
 // if you use an empty/transparent file, set the name here.
 const emptyLayerName = "NONE";
@@ -80,23 +85,21 @@ const shuffleLayerConfigurations = false;
  * multiple items should have the same value, specify
  * clean-filename: trait-value override pairs. Wrap filenames with spaces in quotes.
  */
-const traitValueOverrides = {};
-/*
 const traitValueOverrides = {
+  /*
   Helmet: "Space Helmet",
-  "gold chain": "GOLDEN NECKLACE",
-};*/
+  "gold chain": "GOLDEN NECKLACE",*/
+};
 
 const debugLogs = true;
 
 const format = {
   width: 2800,
   height: 2800,
-  smoothing: false,
 };
 
 const background = {
-  generate: true,
+  generate: false,
   brightness: "80%",
 };
 
@@ -146,25 +149,26 @@ const preview = {
 };
 
 module.exports = {
-  buildDir,
-  layersDir,
-  format,
-  baseUri,
-  description,
   background,
-  uniqueDnaTorrance,
-  layerConfigurations,
-  rarityDelimiter,
-  preview,
-  shuffleLayerConfigurations,
+  baseUri,
+  buildDir,
   debugLogs,
+  description,
+  emptyLayerName,
   extraAttributes,
   extraMetadata,
-  incompatible,
   forcedCombinations,
-  traitValueOverrides,
-  outputJPEG,
-  emptyLayerName,
-  useRootTraitType,
+  format,
   hashImages,
+  incompatible,
+  layerConfigurations,
+  layersDir,
+  outputJPEG,
+  preview,
+  rarityDelimiter,
+  shuffleLayerConfigurations,
+  startIndex,
+  traitValueOverrides,
+  uniqueDnaTorrance,
+  useRootTraitType,
 };
