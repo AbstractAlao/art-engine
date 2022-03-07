@@ -5,8 +5,10 @@ const isLocal = typeof process.pkg === "undefined";
 const basePath = isLocal ? process.cwd() : path.dirname(process.execPath);
 const { MODE } = require(path.join(basePath, "src/blendMode.js"));
 
-const buildDir = path.join(basePath, "/build");
-const layersDir = path.join(basePath, "/layers");
+//const buildDir = path.join(basePath, "/build");
+//const layersDir = path.join(basePath, "/layers");
+const buildDir = "../build";
+const layersDir = "../layers";
 
 const description =
   "A Collection of 10,000 algorithmically generated nfts that express the underlying aspcted of the metaverse";
@@ -27,16 +29,23 @@ const hashImages = true;
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 1000,
-    // namePrefix: "Monkey", Use to add a name to Metadata `name:`
+    growEditionSizeTo: 10000,
+    namePrefix: "Cryptonaut", // Use to add a name to Metadata `name:`
     layersOrder: [
       { name: "Background" },
       { name: "Base Character" },
-      { name: "Expression" },
-      { name: "Eyes" },
-      { name: "Hair" },
+      {
+        name: "Expression",
+        options: {
+          bypassDNA: false,
+        },
+      },
       { name: "Clothes" },
       { name: "Necklace" },
+      { name: "Eyes" },
+      { name: "Earings" },
+      { name: "Hair" },
+      // { name: "Beard" },
       { name: "Sneakers" },
     ],
   },
@@ -60,9 +69,77 @@ const layerConfigurations = [
  * accidentally set incompatibilities for the _wrong_ item.
  */
 const incompatible = {
-  //   Red: ["Dark Long"],
-  //   // directory incompatible with directory example
-  //   White: ["rare-Pink-Pompadour"],
+  "Brown Beard": [
+    "Beaded",
+    "BTC Pendant",
+    "ETH Pendant",
+    "Jade Pendant",
+    "Spiked",
+  ],
+  "Copper Beard": [
+    "Beaded",
+    "BTC Pendant",
+    "ETH Pendant",
+    "Jade Pendant",
+    "Spiked",
+  ],
+  "Magenta Beard": [
+    "Beaded",
+    "BTC Pendant",
+    "ETH Pendant",
+    "Jade Pendant",
+    "Spiked",
+  ],
+  "Copper Rock": [
+    "Black Helix",
+    "Gold Helix",
+    "Black Loop",
+    "Black Stud",
+    "Double Black Stud",
+    "Double Gold Stud",
+    "Gold Ring",
+    "Gold Stud",
+  ],
+  "Indigo Rock": [
+    "Black Helix",
+    "Gold Helix",
+    "Black Loop",
+    "Black Stud",
+    "Double Black Stud",
+    "Double Gold Stud",
+    "Gold Ring",
+    "Gold Stud",
+  ],
+  "Pink Rock": [
+    "Black Helix",
+    "Gold Helix",
+    "Black Loop",
+    "Black Stud",
+    "Double Black Stud",
+    "Double Gold Stud",
+    "Gold Ring",
+    "Gold Stud",
+  ],
+  "Purple Rock": [
+    "Black Helix",
+    "Gold Helix",
+    "Black Loop",
+    "Black Stud",
+    "Double Black Stud",
+    "Double Gold Stud",
+    "Gold Ring",
+    "Gold Stud",
+  ],
+  "Sun Set Rock": [
+    "Black Helix",
+    "Gold Helix",
+    "Black Loop",
+    "Black Stud",
+    "Double Black Stud",
+    "Double Gold Stud",
+    "Gold Ring",
+    "Gold Stud",
+  ],
 };
 
 /**
@@ -75,7 +152,7 @@ const incompatible = {
  * further in the stack
  */
 const forcedCombinations = {
-  BACKGROUND_GREEN: ["Urban_GREEN"],
+  //"Green Hoddie": ["Neon and Green"],
 };
 
 const shuffleLayerConfigurations = false;
