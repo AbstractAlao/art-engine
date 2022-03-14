@@ -29,7 +29,7 @@ const hashImages = true;
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 10000,
+    growEditionSizeTo: 1000,
     namePrefix: "Cryptonaut", // Use to add a name to Metadata `name:`
     layersOrder: [
       { name: "Background" },
@@ -140,6 +140,11 @@ const incompatible = {
     "Gold Ring",
     "Gold Stud",
   ],
+  "West Papua Shaman": ["Beard", "Clothes", "Earings", "Hair", "Sneakers"],
+  "Kebatinan Shaman": ["Beard", "Clothes", "Earings", "Hair", "Sneakers"],
+  "Kejawen Shaman": ["Beard", "Clothes", "Earings", "Hair", "Sneakers"],
+  "Ol Glas Shaman": ["Beard", "Clothes", "Earings", "Hair", "Sneakers"],
+  "Papua Shaman": ["Beard", "Clothes", "Earings", "Hair", "Sneakers"],
 };
 
 /**
@@ -152,7 +157,11 @@ const incompatible = {
  * further in the stack
  */
 const forcedCombinations = {
-  //"Green Hoddie": ["Neon and Green"],
+  "West Papua Shaman": ["Bald", "Koteka"],
+  "Kebatinan Shaman": ["Bald", "Koteka"],
+  "Kejawen Shaman": ["Bald", "Koteka"],
+  "Ol Glas Shaman": ["Bald", "Koteka"],
+  "Papua Shaman": ["Bald", "Koteka"],
 };
 
 const shuffleLayerConfigurations = false;
@@ -168,7 +177,7 @@ const traitValueOverrides = {
   "gold chain": "GOLDEN NECKLACE",*/
 };
 
-const debugLogs = true;
+const debugLogs = false;
 
 const format = {
   width: 2800,
