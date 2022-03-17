@@ -19,7 +19,7 @@ const outputJPEG = false; // if false, the generator outputs png's
  * Set your tokenID index start number.
  * ⚠️ Be sure it matches your smart contract!
  */
-const startIndex = 0;
+const startIndex = 1;
 
 // if you use an empty/transparent file, set the name here.
 const emptyLayerName = "NONE";
@@ -140,11 +140,20 @@ const incompatible = {
     "Gold Ring",
     "Gold Stud",
   ],
-  "West Papua Shaman": ["Beard", "Clothes", "Earings", "Hair", "Sneakers"],
-  "Kebatinan Shaman": ["Beard", "Clothes", "Earings", "Hair", "Sneakers"],
-  "Kejawen Shaman": ["Beard", "Clothes", "Earings", "Hair", "Sneakers"],
-  "Ol Glas Shaman": ["Beard", "Clothes", "Earings", "Hair", "Sneakers"],
-  "Papua Shaman": ["Beard", "Clothes", "Earings", "Hair", "Sneakers"],
+  Aqua: ["Blangkon", "Indigenous"],
+  Beige: ["Blangkon", "Indigenous"],
+  Brown: ["Blangkon", "Indigenous"],
+  Charcoal: ["Blangkon", "Indigenous"],
+  Diamond: ["Blangkon", "Indigenous"],
+  Ebony: ["Blangkon", "Indigenous"],
+  Glitch: ["Blangkon", "Indigenous"],
+  Gold: ["Blangkon", "Indigenous"],
+  Graphite: ["Blangkon", "Indigenous"],
+  Gray: ["Blangkon", "Indigenous"],
+  Ivory: ["Blangkon", "Indigenous"],
+  Onyx: ["Blangkon", "Indigenous"],
+  Sapphire: ["Blangkon", "Indigenous"],
+  Spectrum: ["Blangkon", "Indigenous"],
 };
 
 /**
@@ -157,11 +166,11 @@ const incompatible = {
  * further in the stack
  */
 const forcedCombinations = {
-  "West Papua Shaman": ["Bald", "Koteka"],
-  "Kebatinan Shaman": ["Bald", "Koteka"],
-  "Kejawen Shaman": ["Bald", "Koteka"],
-  "Ol Glas Shaman": ["Bald", "Koteka"],
-  "Papua Shaman": ["Bald", "Koteka"],
+  "West Papua Shaman": ["Bald", "Blangkon", "Indigenous"],
+  "Kebatinan Shaman": ["Bald", "Blangkon", "Indigenous"],
+  "Kejawen Shaman": ["Bald", "Blangkon", "Indigenous"],
+  "Ol Glas Shaman": ["Bald", "Blangkon", "Indigenous"],
+  "Papua Shaman": ["Bald", "Blangkon", "Indigenous"],
 };
 
 const shuffleLayerConfigurations = false;
