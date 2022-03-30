@@ -29,7 +29,7 @@ const hashImages = true;
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 500,
+    growEditionSizeTo: 1000,
     namePrefix: "Astral Traveler", // Use to add a name to Metadata `name:`
     layersOrder: [
       {
@@ -148,6 +148,7 @@ const incompatible = {
 
   "Black Hoddie": [
     "Maelstrom",
+    "Maelstrom Tails",
     "Rock Maelstrom",
     "Emo Maelstrom",
     "Emo Jester",
@@ -159,6 +160,7 @@ const incompatible = {
   ],
   Blangkon: [
     "Maelstrom",
+    "Maelstrom Tails",
     "Rock Maelstrom",
     "Emo Maelstrom",
     "Emo Jester",
@@ -170,6 +172,7 @@ const incompatible = {
   ],
   "Casual Blue Gold Crimson": [
     "Maelstrom",
+    "Maelstrom Tails",
     "Rock Maelstrom",
     "Emo Maelstrom",
     "Emo Jester",
@@ -181,6 +184,7 @@ const incompatible = {
   ],
   "Casual Blue Gold": [
     "Maelstrom",
+    "Maelstrom Tails",
     "Rock Maelstrom",
     "Emo Maelstrom",
     "Emo Jester",
@@ -192,6 +196,7 @@ const incompatible = {
   ],
   "Casual Blue Gray": [
     "Maelstrom",
+    "Maelstrom Tails",
     "Rock Maelstrom",
     "Emo Maelstrom",
     "Emo Jester",
@@ -203,6 +208,7 @@ const incompatible = {
   ],
   "Casual Blue Peach": [
     "Maelstrom",
+    "Maelstrom Tails",
     "Rock Maelstrom",
     "Emo Maelstrom",
     "Emo Jester",
@@ -214,6 +220,7 @@ const incompatible = {
   ],
   "Casual Blue": [
     "Maelstrom",
+    "Maelstrom Tails",
     "Rock Maelstrom",
     "Emo Maelstrom",
     "Emo Jester",
@@ -225,6 +232,7 @@ const incompatible = {
   ],
   "Casual Dark Blue": [
     "Maelstrom",
+    "Maelstrom Tails",
     "Rock Maelstrom",
     "Emo Maelstrom",
     "Emo Jester",
@@ -236,6 +244,7 @@ const incompatible = {
   ],
   "Green Hoddie": [
     "Maelstrom",
+    "Maelstrom Tails",
     "Rock Maelstrom",
     "Emo Maelstrom",
     "Emo Jester",
@@ -247,6 +256,7 @@ const incompatible = {
   ],
   Indigenous: [
     "Maelstrom",
+    "Maelstrom Tails",
     "Rock Maelstrom",
     "Emo Maelstrom",
     "Emo Jester",
@@ -258,6 +268,7 @@ const incompatible = {
   ],
   Sarong: [
     "Maelstrom",
+    "Maelstrom Tails",
     "Rock Maelstrom",
     "Emo Maelstrom",
     "Emo Jester",
@@ -269,6 +280,7 @@ const incompatible = {
   ],
   "Magenta Hoodie": [
     "Maelstrom",
+    "Maelstrom Tails",
     "Rock Maelstrom",
     "Emo Maelstrom",
     "Emo Jester",
@@ -280,6 +292,7 @@ const incompatible = {
   ],
   "Maroon Hoodie": [
     "Maelstrom",
+    "Maelstrom Tails",
     "Rock Maelstrom",
     "Emo Maelstrom",
     "Emo Jester",
@@ -291,6 +304,7 @@ const incompatible = {
   ],
   "Purple Hoodie": [
     "Maelstrom",
+    "Maelstrom Tails",
     "Rock Maelstrom",
     "Emo Maelstrom",
     "Emo Jester",
@@ -302,6 +316,7 @@ const incompatible = {
   ],
   "Relaxed Blue": [
     "Maelstrom",
+    "Maelstrom Tails",
     "Rock Maelstrom",
     "Emo Maelstrom",
     "Emo Jester",
@@ -313,6 +328,7 @@ const incompatible = {
   ],
   "Relaxed Orange": [
     "Maelstrom",
+    "Maelstrom Tails",
     "Rock Maelstrom",
     "Emo Maelstrom",
     "Emo Jester",
@@ -324,6 +340,7 @@ const incompatible = {
   ],
   "Traditional Blue": [
     "Maelstrom",
+    "Maelstrom Tails",
     "Rock Maelstrom",
     "Emo Maelstrom",
     "Emo Jester",
@@ -335,6 +352,7 @@ const incompatible = {
   ],
   "Traditional Crimson": [
     "Maelstrom",
+    "Maelstrom Tails",
     "Rock Maelstrom",
     "Emo Maelstrom",
     "Emo Jester",
@@ -346,6 +364,7 @@ const incompatible = {
   ],
   "Traditional Magenta": [
     "Maelstrom",
+    "Maelstrom Tails",
     "Rock Maelstrom",
     "Emo Maelstrom",
     "Emo Jester",
@@ -357,6 +376,7 @@ const incompatible = {
   ],
   "Traditional Orange": [
     "Maelstrom",
+    "Maelstrom Tails",
     "Rock Maelstrom",
     "Emo Maelstrom",
     "Emo Jester",
@@ -465,6 +485,7 @@ const incompatible = {
     "Blue Emo",
     "Magenta Punk",
     "Maelstrom",
+    "Maelstrom Tails",
     "Emo Maelstrom",
     "Rock Maelstrom",
     "Blue Flame Mohawk",
@@ -528,6 +549,7 @@ const incompatible = {
     "Light Emo",
     "Black Natural Afro",
     "Maelstrom",
+    "Maelstrom Tails",
     "Emo Maelstrom",
     "Rock Maelstrom",
     "Magenta Flame",
