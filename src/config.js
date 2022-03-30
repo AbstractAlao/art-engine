@@ -11,7 +11,7 @@ const buildDir = "../build";
 const layersDir = "../layers";
 
 const description =
-  "A Collection of 10,000 algorithmically generated nfts that express the underlying aspcted of the metaverse";
+  "A collection of 10,000 algorithmically generated conscious travlers elevating the metaverse and beyond";
 const baseUri = "ipfs://NewUriToReplace";
 
 const outputJPEG = false; // if false, the generator outputs png's
@@ -30,7 +30,7 @@ const hashImages = true;
 const layerConfigurations = [
   {
     growEditionSizeTo: 1000,
-    namePrefix: "Astral Traveler", // Use to add a name to Metadata `name:`
+    namePrefix: "Conscious Traveler", // Use to add a name to Metadata `name:`
     layersOrder: [
       {
         name: "Background",
@@ -47,9 +47,9 @@ const layerConfigurations = [
           bypassDNA: false,
         },
       },
-      { name: "Eyes" },
-      { name: "Necklace" },
       { name: "Hair" },
+      { name: "Necklace" },
+      { name: "Eyes" },
       { name: "Earings" },
       // { name: "Beard" },
       { name: "Headware" },
@@ -741,6 +741,15 @@ const incompatible = {
     "The Ace of Knaves",
     "Prince of Chaos",
   ],
+  "Brownish Afro": [
+    "Helmet Blue",
+    "Helmet Indigo",
+    "Ruby Wizard Hat",
+    "Sapphire Wizard Hat",
+    "Indigo Wizard Hat",
+    "The Ace of Knaves",
+    "Prince of Chaos",
+  ],
   "Auburn Rock": [
     "Helmet Blue",
     "Helmet Indigo",
@@ -1221,6 +1230,17 @@ const incompatible = {
     "Prince of Chaos",
     "Blangkon",
   ],
+  "Maelstrom Tails": [
+    "Helmet Blue",
+    "Helmet Indigo",
+    "Indigo Wizard Hat",
+    "Ruby Wizard Hat",
+    "Sapphire Wizard Hat",
+    "Indigo Wizard Hat",
+    "The Ace of Knaves",
+    "Prince of Chaos",
+    "Blangkon",
+  ],
   "Emo Maelstrom": [
     "Helmet Blue",
     "Helmet Indigo",
@@ -1245,8 +1265,6 @@ const incompatible = {
     "Ruby Wizard Hat",
     "Sapphire Wizard Hat",
     "Indigo Wizard Hat",
-    "The Ace of Knaves",
-    "Prince of Chaos",
   ],
   "Rock Jester": [
     "Helmet Blue",
@@ -1254,8 +1272,6 @@ const incompatible = {
     "Ruby Wizard Hat",
     "Sapphire Wizard Hat",
     "Indigo Wizard Hat",
-    "The Ace of Knaves",
-    "Prince of Chaos",
   ],
   "BTC Pendant": ["Brown Beard", "Copper Beard", "Magenta Beard"],
   Beaded: ["Brown Beard", "Copper Beard", "Magenta Beard"],
