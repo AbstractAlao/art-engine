@@ -29,16 +29,16 @@ const hashImages = true;
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 1000,
+    growEditionSizeTo: 10000,
     namePrefix: "Conscious Traveler", // Use to add a name to Metadata `name:`
     layersOrder: [
-      {
+      ,
+      /*{
         name: "Background",
         options: {
           bypassDNA: false,
         },
-      },
-      { name: "Base Character" },
+      }*/ { name: "Base Character" },
       { name: "Tattoo" },
       { name: "Clothes" },
       {
@@ -530,6 +530,16 @@ const incompatible = {
     "Magenta Beard",
     "Helmet Blue",
     "Helmet Indigo",
+    "Front Cut Black",
+    "Front Cut Blue",
+    "Front Cut Green",
+    "Front Cut Indigo",
+    "Front Cut Orange",
+    "Front Cut Pink",
+    "Front Cut Red",
+    "Highlight Afro",
+    "Black Brown Afro",
+    "Brownish Afro",
   ],
   Joker: [
     "Aqua Punk",
@@ -597,6 +607,16 @@ const incompatible = {
     "Magenta Beard",
     "Helmet Blue",
     "Helmet Indigo",
+    "Front Cut Black",
+    "Front Cut Blue",
+    "Front Cut Green",
+    "Front Cut Indigo",
+    "Front Cut Orange",
+    "Front Cut Pink",
+    "Front Cut Red",
+    "Highlight Afro",
+    "Black Brown Afro",
+    "Brownish Afro",
   ],
   Ninja: [
     /* "Aqua Punk",
