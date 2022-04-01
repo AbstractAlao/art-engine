@@ -426,6 +426,7 @@ const incompatible = {
     "Copper Beard",
     "Magenta Beard",
     "Black Brown Afro",
+    "Maelstrom",
   ],
   "Space Blue": [
     "Aqua Punk",
@@ -466,6 +467,7 @@ const incompatible = {
     "Copper Beard",
     "Magenta Beard",
     "Black Brown Afro",
+    "Maelstrom",
   ],
   Jester: [
     "Aqua Punk",
