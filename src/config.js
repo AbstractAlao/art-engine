@@ -29,7 +29,7 @@ const hashImages = true;
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 500,
+    growEditionSizeTo: 1000,
     namePrefix: "Conscious Avatar", // Use to add a name to Metadata `name:`
     layersOrder: [
       ,
@@ -956,6 +956,13 @@ const incompatible = {
     "Indigo Wizard Hat",
     "The Ace of Knaves",
     "Prince of Chaos",
+  ],
+  "Red Fire Afro": [
+    "Helmet Blue",
+    "Helmet Indigo",
+    "Ruby Wizard Hat",
+    "Sapphire Wizard Hat",
+    "Indigo Wizard Hat",
   ],
   "Magenta Flame": [
     "Helmet Blue",
