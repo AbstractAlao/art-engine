@@ -29,7 +29,7 @@ const hashImages = true;
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 10000,
+    growEditionSizeTo: 500,
     namePrefix: "Conscious Avatar", // Use to add a name to Metadata `name:`
     layersOrder: [
       ,
@@ -427,6 +427,7 @@ const incompatible = {
     "Magenta Beard",
     "Black Brown Afro",
     "Maelstrom",
+    "Gold Afro",
   ],
   "Space Blue": [
     "Aqua Punk",
@@ -468,6 +469,7 @@ const incompatible = {
     "Magenta Beard",
     "Black Brown Afro",
     "Maelstrom",
+    "Gold Afro",
   ],
   Jester: [
     "Aqua Punk",
