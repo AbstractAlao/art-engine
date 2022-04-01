@@ -11,7 +11,7 @@ const buildDir = "../build";
 const layersDir = "../layers";
 
 const description =
-  "A collection of 10,000 algorithmically generated conscious travlers elevating the metaverse and beyond";
+  "A collection of 10,000 algorithmically generated conscious avatars elevating the metaverse and beyond";
 const baseUri = "ipfs://NewUriToReplace";
 
 const outputJPEG = false; // if false, the generator outputs png's
@@ -30,15 +30,16 @@ const hashImages = true;
 const layerConfigurations = [
   {
     growEditionSizeTo: 10000,
-    namePrefix: "Conscious Traveler", // Use to add a name to Metadata `name:`
+    namePrefix: "Conscious Avatar", // Use to add a name to Metadata `name:`
     layersOrder: [
       ,
-      /*{
+      {
         name: "Background",
         options: {
           bypassDNA: false,
         },
-      }*/ { name: "Base Character" },
+      },
+      { name: "Base Character" },
       { name: "Tattoo" },
       { name: "Clothes" },
       {
@@ -424,6 +425,7 @@ const incompatible = {
     "Brown Beard",
     "Copper Beard",
     "Magenta Beard",
+    "Black Brown Afro",
   ],
   "Space Blue": [
     "Aqua Punk",
@@ -463,6 +465,7 @@ const incompatible = {
     "Brown Beard",
     "Copper Beard",
     "Magenta Beard",
+    "Black Brown Afro",
   ],
   Jester: [
     "Aqua Punk",
