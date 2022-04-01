@@ -29,7 +29,7 @@ const hashImages = true;
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 1000,
+    growEditionSizeTo: 10000,
     namePrefix: "Conscious Avatar", // Use to add a name to Metadata `name:`
     layersOrder: [
       ,
