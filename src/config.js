@@ -1402,7 +1402,6 @@ const forcedCombinations = {
   Joker: ["Prince of Chaos", "Focused", "Air Jokers"],
   "Space Blue": ["Helmet Blue"],
   "Space Indigo": ["Helmet Indigo"],
-  "Indigo Wizardry": ["Indigo Wizard Hat"],
 };
 
 const shuffleLayerConfigurations = false;
